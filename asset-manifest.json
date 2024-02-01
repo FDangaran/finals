@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/finals/static/css/main.278bfa28.css",
+    "main.js": "/finals/static/js/main.18c5d00b.js",
+    "static/js/496.e95edc07.chunk.js": "/finals/static/js/496.e95edc07.chunk.js",
+    "static/media/BurgerKing.png": "/finals/static/media/BurgerKing.29d7621e675700cf7d19.png",
+    "static/media/SushiRoll.png": "/finals/static/media/SushiRoll.fa92838e26ab1bd04764.png",
+    "static/media/S&R.png": "/finals/static/media/S&R.04eb585ff08befac54f6.png",
+    "static/media/grab_generic.png": "/finals/static/media/grab_generic.65f06f27474b34326260.png",
+    "static/media/burger.png": "/finals/static/media/burger.f86d6ceaf5e021cb4aa3.png",
+    "static/media/vegan.png": "/finals/static/media/vegan.a5aabf59d728b45bdb8f.png",
+    "static/media/sushi.png": "/finals/static/media/sushi.41a31287b0fca41ee305.png",
+    "static/media/desserts.png": "/finals/static/media/desserts.823b85192301b72189eb.png",
+    "static/media/bbq.png": "/finals/static/media/bbq.2a53ae92da99cd57c0b2.png",
+    "static/media/pizza.png": "/finals/static/media/pizza.006a925021fb89b98382.png",
+    "index.html": "/finals/index.html",
+    "main.278bfa28.css.map": "/finals/static/css/main.278bfa28.css.map",
+    "main.18c5d00b.js.map": "/finals/static/js/main.18c5d00b.js.map",
+    "496.e95edc07.chunk.js.map": "/finals/static/js/496.e95edc07.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.278bfa28.css",
+    "static/js/main.18c5d00b.js"
+  ]
+}
