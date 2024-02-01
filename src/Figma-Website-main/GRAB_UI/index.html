@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!---i comment nyo kung ano ginawa nyo-->
+    
+</head>
+<body>
+    <container>
+    <nav class="navbar">
+        <div class="logo_name">
+            <p>Grab</p>
+            <p>Web</p>
+        </div>
+    
+        <div class="navSearch">
+            <form class="example" action="action_page.php">
+                <input type="text" placeholder="Search.." name="search" class="searchbar">
+                <button type="submit" class="searchbtn"><i class="fa fa-search"></i></button>
+              </form>
+        </div>
+        <ul class="navList">
+            <li class="navItem"><a href="">Restaurants</a></li>
+            <li class="navItem"><a href="">Deals</a></li>
+            <div class="navItem vl"></div>
+            <li class="navItem"><a href="">My Orders</a></li>
+        </ul>
+        <div class="navbtn">
+            <button class="btn-cart"><i class="fa fa-shopping-bag"></i></button> <!--shopping bag icon-->
+            <button class="btn-account"><img src="" alt=""></button>
+        </div>
+    </nav>
+    
+    <div class="promotion_parent">
+        <div class="deals">
+          <img class="deals" src="IMAGES/grab_generic.png">
+          <h5>Deals up to</h5>
+          <h2 style="color: #00B14F;">30% OFF</h2>
+        </div>
+
+        <div class="exclusive">
+            <img class="exclusive" src="IMAGES/grab_generic.png">
+            <h5>GrabFood</h5>
+            <h2 style="color: var(--secondary-default, #FD6D22);">Exclusive</h2>
+        </div>
+        
+        <div class="bgcategory pizza">
+            <img src="./IMAGES/pizza.png">
+           <p>Pizza</p> 
+        </div>
+
+        <div class="bgcategory burger">
+            <img src="./IMAGES/burger.png">
+           <p>Burger</p> 
+        </div>
+
+        <div class="bgcategory bbq">
+            <img src="./IMAGES/bbq.png">
+           <p>BBQ</p> 
+        </div>
+
+        <div class="bgcategory sushi">
+            <img src="./IMAGES/sushi.png">
+           <p>Sushi</p> 
+        </div>
+
+        <div class="bgcategory vegan">
+            <img src="./IMAGES/vegan.png">
+           <p>Vegan</p> 
+        </div>
+
+        <div class="bgcategory desserts">
+            <img src="./IMAGES/desserts.png">
+           <p>Desserts</p> 
+        </div>
+        
+        <div class="restaurants">
+                <h5>Nearby Restaurants</h5>
+        </div>
+        
+        <div class="fdcategory">
+            <div class="Burgerking resto"> <!--gawa ng div class na iba para doon na lang yung same attributes ng bawat food DIBA DIBA-->
+                <a href="https://food.grab.com/ph/en/restaurant/burger-king-welcome-rotonda-delivery/AWhefkWqR-bAtZoKZM96?">
+                    <img src="./IMAGES/BurgerKing.png">
+                 <h6>Burger King - UN Avenue Roxas</h6>
+                 <i class="fa fa-clock-o"></i>
+                 <p class="small-2">30-40 min ⋅ P79 min-sum</p>
+                 <div class="burger_icon">
+                     <img src="IMAGES/burger.png">
+                     <p>Burger</p>
+                 </div>
+             </div>
+                </a>
+                
+            <div class="snr resto"> <!--div class="fdcategory (food)"-->
+                <a href="https://food.grab.com/ph/en/restaurant/s-r-new-york-style-pizza-lucky-chinatown-mall-available-for-long-distance-delivery-delivery/PHGFSTI000001d0?">
+                    <img src="./IMAGES/S&R.png">
+                <h6>S&R New York Style Pizza - SM</h6>
+                <i class="fa fa-clock-o"></i>
+                <p class="small-2">40-60 min ⋅ P626 min-sum</p>
+                <div class="burger_icon">
+                    <img src="IMAGES/burger.png">
+                    <p>Burger</p>
+                </div>
+                <div class="pizza_icon">
+                    <img src="IMAGES/pizza.png">
+                    <p>Pizza</p>
+                </div>
+            </div>
+                </a>
+                
+        
+            
+            <div class="SushiRoll resto"> <!--gawa ng div class na iba para doon na lang yung same attributes ng bawat food DIBA DIBA-->
+                <a href="https://food.grab.com/ph/en/restaurant/kanzen-sushi-roll-p-noval-street-available-for-long-distance-delivery-delivery/2-CZLJRYNXTP4EPA?">
+                    <img src="./IMAGES/SushiRoll.png">
+                <h6>Kanzen Sushi Roll - P Noval Strt</h6>
+                <i class="fa fa-clock-o"></i>
+                <p class="small-2">20-40 min ⋅ P595 min-sum</p>
+                <div class="burger_icon">
+                    <img src="IMAGES/sushi.png">
+                    <p>Sushi</p>
+                </div>
+            </div>
+                </a>
+                
+        </div>
+    </div>
+<!--HUWAG MAGDAGDAG OKA DITO-->
+<!--HUWAG MAGDAGDAG BAGONG DIV PARENT PROMOTION PARENT LANG, ISA LANG DAPAT-->
+    </container>
+</body>
+</html>

@@ -1,0 +1,434 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=NTR&family=Nunito+Sans:opsz,wght@6..12,500&family=Nunito:wght@200;400&display=swap');
+body{
+    background: var(--neutral-white, #fff);
+    box-sizing: border-box;
+}
+
+.logo_name{
+    color: #BAF7A4;
+    font-family: NTR;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 125% */
+    letter-spacing: 2px;
+    line-height: .35;
+    width: 96px;
+    height: 62px;
+    flex-shrink: 0;
+}
+
+.navbar{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    background-color:#00B14F;;
+    align-items: center;
+    padding: 1rem 10vw; 
+    transform-origin: top left;
+    transform: scale(1);
+    white-space: nowrap;
+  }
+  
+  .navbar * {
+    transform-origin: top left;
+    transform: scale(1);
+  }
+
+.navList{
+    display: flex;
+    list-style: none;
+    margin-right: -30em;
+}
+.navItem {
+    margin: 1em;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.1px;
+}
+
+.navItem a{
+    text-decoration: none;
+    color: black;
+}
+
+.navItem.vl{
+    border-left: solid 1px #f2f2f2;
+}
+form {
+border-radius: 12px;
+}
+
+.navSearch {
+    padding: 2rem;
+    font-family: 'NTR', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: -20rem;
+}
+
+.example{
+    border: solid 5px #f2f2f2;
+    width: 224px;
+    height: 40px;
+}
+
+.searchbar{
+    border: none;
+    background-color: rgb(242, 236, 236);
+    width: 199px;
+    height: 40px;
+}
+.searchbtn{
+    margin-left: -1rem;
+    border: none;
+    background-color: #f2f2f2;
+    height: 43px;
+    width: 32px;
+   
+}
+
+.searchbtn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.navItem:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.btn-cart{
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-cart:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    text-shadow: 5px 5px 2px gray;
+}
+
+.btn-account{
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-account:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    text-shadow: 5px 5px 2px gray;
+}
+
+.fa-shopping-bag{
+    color: #7CFF4E;
+}
+
+.promotion_parent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .deals {
+    position: absolute;
+    margin: 24px 735px 568px 165px;
+    box-sizing: border-box;
+    width: 540px;
+    height: 188px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--secondary-light, #F3F4FF);
+  }
+  
+  .deals img {
+    margin: 8px 264px 7px 6px ;
+    width: 270px;
+    height: 173px;
+    flex-shrink: 0;
+  }
+
+  .exclusive {
+    position: absolute;
+    margin: 24px 165px 568px 735px;
+    box-sizing: border-box;
+    width: 540px;
+    height: 188px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--secondary-light, #FFF3ED);
+  }
+
+  .exclusive img {
+    margin: 8px 264px 7px 6px ;
+    width: 270px;
+    height: 173px;
+    flex-shrink: 0;
+  }
+
+  h2{
+    font-family: Nunito;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px; /* 140% */
+    letter-spacing: 0.1px;
+    margin: 8px 24px 72px 306px;
+  }
+
+  h5{
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 140% */
+    letter-spacing: 0.1px;
+    margin: 24px 24px 8px 306px;
+  }
+
+.bgcategory{
+    color: var(--neutral-gray-dark, #545563);
+    text-align: center;
+    font-family: Nunito;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 138.462% */
+    letter-spacing: 0.1px;
+    width: 160px;
+    height: 80px;
+    position: absolute;
+    border-radius: 15.5px;
+    border-radius: 15.5px;
+    background-color: #F8F9FF;
+    border: 1px solid #7CFF4E;
+    margin: 244px 1115px 568px 165px;
+    
+}
+
+.bgcategory img{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 14px 68px 42px 68px;
+}
+
+.bgcategory p {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: -25px 16px 12px 16px;
+  }
+
+.bgcategory:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #F3F4FF;
+    border-color: #00B14F;
+}
+
+.bgcategory:active {
+    background-color: #F3F4FF;
+    border-color: #00B14F;
+  } /*DI NAGANA>>>*/
+  
+/* HUWAG BAGUHIN*/ 
+.pizza {
+    margin-left: 165px;
+  }
+  
+.burger {
+    margin-left: 545px;
+  }
+  
+.bbq {
+    margin-left: 925px;
+  }
+
+.sushi {
+    margin-left: 1305px;
+  }
+
+.vegan {    
+    margin-left: 1685px;
+  }
+
+.desserts {
+    margin-left: 2065px;
+  }
+/* HUWAG BAGUHIN*/ 
+
+.restaurants h5{
+    color: var(--neutral-black, #2B2B43);
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 140% */
+    letter-spacing: 0.1px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 344px 370px 388px 165px;
+}
+
+.fdcategory {
+    display: flex;
+    width: 350px;
+    height: 276px;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 408px 925px 212px 165px; /*up right down left*/
+    
+}
+
+.resto {
+  white-space: nowrap;
+}
+.resto a{
+  text-decoration: none;
+}
+
+.resto:hover{
+  cursor: pointer;
+  background-color: #F3F4FF;
+  border-color: #00B14F;
+}
+
+.fdcategory h6{
+  color: var(--neutral-black, #2B2B43);
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin: 16px 16px 76px 16px;
+  width: 286px;
+}
+
+.small-2 {
+  color: var(--neutral-gray, #83859C);
+  font-family: Nunito;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 133.333% */
+}
+
+
+.Burgerking, .snr, .SushiRoll{
+    width: 350px;
+    height: 276px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid var(--neutral-gray-lightest, #EDEEF2);
+    background: var(--neutral-white, #FFF);
+    margin: 84px 30px 96px 0px;
+    display: block;
+}
+
+
+
+.fdcategory img{
+    display: flex;
+    height: 160px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-top-right-radius: 16px ;
+    border-top-left-radius: 16px ;
+    
+}
+
+.fa-clock-o,
+.small-2 {
+  
+  color: #83859c;
+  position: absolute;
+  margin: -66px 258px 54px 15px;
+  display: inline-block;
+}
+
+/* 30-40min P79 min sum */
+.small-2 {
+  font-family: "Nunito-SemiBold", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  height: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 34px;
+}
+
+.burger_icon{
+  display: flex;
+  padding: 4px 10px;
+  width: 58px;
+  height: 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  background: var(--neutral-gray-lightest, #EDEEF2);
+  margin: -36px 258px 54px 15px;
+}
+
+.burger_icon img{
+  display: flex;
+  width: 12px;
+  height: 12px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0px;
+}
+
+.burger_icon p{
+  color: var(--neutral-gray-dark, #545563);
+  font-family: Nunito;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 133.333% */
+}
+
+.pizza_icon{
+  display: flex;
+  padding: 4px 10px;
+  width: 58px;
+  height: 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  background: var(--neutral-gray-lightest, #EDEEF2);
+  margin: -78px 258px 54px 100px;
+}
+
+.pizza_icon img{
+  display: flex;
+  width: 12px;
+  height: 12px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0px;
+}
+
+.pizza_icon p{
+  color: var(--neutral-gray-dark, #545563);
+  font-family: Nunito;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 133.333% */
+}
